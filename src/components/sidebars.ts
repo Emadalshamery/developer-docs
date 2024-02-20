@@ -511,7 +511,7 @@ const sidebars: SidebarsConfig = {
     "nodes/nodes-landing",
     {
       type: "category",
-      label: "Run a Validator",
+      label: "Run a Validator and VFN",
       link: { type: "doc", id: "nodes/validator-node/index" },
       collapsible: true,
       collapsed: true,

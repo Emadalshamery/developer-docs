@@ -141,7 +141,7 @@ const themeConfig: Preset.ThemeConfig = {
             to: "nodes/nodes-landing",
           },
           {
-            label: "Run a Validator",
+            label: "Run a Validator and VFN",
             to: "nodes/validator-node/validators",
           },
           {

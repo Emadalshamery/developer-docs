@@ -2,9 +2,11 @@
 title: "Node Requirements"
 ---
 
-To make your validator node and validator fullnode deployment hassle-free, make sure you have the resources specified in this document.
+To make your validator and validator fullnode (VFN) deployments hassle-free, make sure to meet the requirements specified
+in this document. Failure to meet these requirements will result in your nodes being unable to keep up with the network
+and will likely mean degraded performance, reward losses, and general node instability.
 
-## Validator and validator fullnode
+## Validator and VFN
 
 - **Both a validator node and a validator fullnode required:** For the Aptos mainnet, we require that you run a validator node and a validator fullnode. We strongly recommend that you run the validator node and the validator fullnode on two separate and independent machines. Make sure that these machines are well-provisioned and isolated from each other. Guaranteeing the resource isolation between the validator and the validator fullnode will help ensure smooth deployment of these nodes.
 - **Public fullnode is optional:** We recommend that optionally you run a public fullnode also. However, a public fullnode is not required. If you run public fullnode also, then we strongly recommend that you run the public fullnode on a third machine that is separate and independent of either the validator or the validator fullnode machines.
